@@ -1,0 +1,32 @@
+Git:
+Git is a version control system(VCS) tool that manages source code in industry and it stores when and who write and commit the codes.
+
+Git commands:
+[untracked -> staged -> tracked]
+1.git init - initialized empty git repository
+2.git stataus - untracked file seen on screen
+3.git add filename - untracked file comes on staged state
+4.git commit -m "message" - file comes to tracked state
+5.git restore filename - deleted file is to be restore
+6.git remote add origin 'linkpaste github' - connect GitHub (local to GitHub)
+7.git branch -M main - for push operation performed from main branch
+8.git push -u origin main - push code to GitHub
+9.git clone 'linkpaste' - Code comes from GitHub to local
+10.git fork - GitHub to GitHub 
+11.git pull origin main - GitHub to local 
+
+BRANCHES:
+1.git switch -c branch_name - create and go for new branch
+2.git switch branch_name - switch to new branch
+3.git fetch - if you create a branch in GitHub and now you have to access on local
+
+HOOKS:
+Hooks is a concept that checks the error in code file before commit.It comes under .git .
+eg- pre-commit hooks.
+
+GITHUB ACTIONS:
+It is like a Jenkins tools (ci/cd piplines) that build, test and deploy the codes or application from the GitHub.
+It detects the error of code in your file.
+eg- pylint.
+
+
